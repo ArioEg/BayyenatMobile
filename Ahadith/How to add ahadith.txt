@@ -1,0 +1,10 @@
+1:
+Add [] @ first & end of file
+3:
+check Reqular expression
+regex find: \.\:\.\r\n»(.*)$\r\n(.*)$\r\n(.*)$\r\n»(.*)$\r\n
+4line Hadith: (?=\.\:\.\r\n»(.*)$\r\n(.*)$\r\n(.*)$\r\n»(.*)$\r\n)\.\:\.\r\n»(.*)$\r\n(.*)$\r\n(.*)$\r\n»(.*)$\r\n
+3line Hadith: (?!=\.\:\.\r\n»(.*)$\r\n(.*)$\r\n(.*)$\r\n»(.*)$\r\n)\.\:\.\r\n»(.*)$\r\n(.*)$\r\n»(.*)$\r\n
+replave with: 
+4line Hadith: {\r\n"quote": "\3",\r\n"author": "\1",\r\n"source": "\4",\r\n"tags": null,\r\n"public": "yes"\r\n},\r\n
+3line Hadith: {\r\n"quote": "\6",\r\n"author": "\5",\r\n"source": "\7",\r\n"tags": null,\r\n"public": "yes"\r\n},

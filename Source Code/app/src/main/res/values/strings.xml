@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">بینات</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="action_reload">بروزرسانی</string>
+    <string name="drawer_open">باز</string>
+    <string name="drawer_close">بسته</string>
+
+    <string name="nav_item_home">خانه</string>
+    <string name="nav_item_ahadith">احادیث</string>
+    <string name="nav_item_wallpapers">پس زمینه ها</string>
+
+    <string name="title_wallpapers">پس زمینه ها</string>
+    <string name="title_ahadith">احادیث</string>
+    <string name="title_home">خانه</string>
+    <string name="change_wallpaper_error">هنگام تعویض پس زمینه خطایی رخ داد.</string>
+    <string name="btn_service_stop">غیرفعال کردن سرویس</string>
+    <string name="btn_service_start">فعال کردن سرویس</string>
+    <string name="service_started">سرویس اجرا شد.</string>
+    <string name="service_stopped">سرویس متوقف شد.</string>
+    <string name="sc_title_reload">بروز رسانی</string>
+    <string name="sc_first_run_update">شما برای اولین بار است که برنامه را اجرا کرده اید، لطفا برای دریافت احادیث و پس زمینه ها؛ اینجا را کلیک کنید.</string>
+    <string name="alert_blank_db">لطفا احادیث و پس زمینه ها را بروز رسانی کنید.</string>
+    <string name="alert_no_rec_selected">لطفا از بین احادیث و پس زمینه ها، چند مورد را برای نمایش انتخاب کنید.</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_ahadith</item>
+        <item>@string/nav_item_wallpapers</item>
+    </string-array>
+
+</resources>

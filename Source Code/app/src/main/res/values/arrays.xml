@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="updateFrequency">
+        <item name="10">10 دقیقه</item>
+        <item name="30">30 دقیقه</item>
+        <item name="60">1 ساعت</item>
+    </string-array>
+
+    <string-array name="updateFrequencyValues">
+        <item name="10">10</item>
+        <item name="30">30</item>
+        <item name="60">60</item>
+    </string-array>
+
+    <declare-styleable name="font">
+        <attr name="type">
+            <enum name="bold" value="1"/>
+            <enum name="italic" value="2"/>
+        </attr>
+        <attr name="name">
+            <enum name="MjFlow" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="تنظیمات" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefDrawScreenRect"
+            android:title="چاپ حدیث بر حسب نمایشگر"
+            android:summaryOff="حدیث با توجه به ابعاد عکس نمایش داده خواهد شد."
+            android:summaryOn="حدیث با توجه به ابعاد نمایشگر نمایش داده خواهد شد."/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefAutoRefresh"
+            android:title="تغییر پس زمینه"
+            android:summary="درصورت فعال سازی، پس زمینه در بازه های زمانی معین تغییر خواهد کرد."/>
+        <!-- TODO: Set dependency for this pref -->
+        <ListPreference
+            android:key="prefChangeFrequency"
+            android:title="مدت زمان نمایش هر پس زمینه"
+            android:entries="@array/updateFrequency"
+            android:entryValues="@array/updateFrequencyValues" />
+    </PreferenceCategory>
+</PreferenceScreen>

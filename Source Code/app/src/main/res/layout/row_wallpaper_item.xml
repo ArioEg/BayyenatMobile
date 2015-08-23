@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.najmossagheb.core.SquareGridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                     android:id="@+id/SquareGridItem1"
+                                     android:layout_width="fill_parent"
+                                     android:layout_height="fill_parent">
+
+    <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/FrameLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <ImageView
+                android:id="@+id/wp_thumb"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/colorPrimary"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_action_search"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:id="@+id/check"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/check"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_margin="10dp" />
+
+        <!--<FrameLayout
+                android:id="@+id/wp_title_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_gravity="bottom"
+                android:background="#7F000000">
+
+            <TextView
+                    android:id="@+id/wp_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:singleLine="true"
+                    android:text="Title Goes Here"/>
+        </FrameLayout>-->
+    </FrameLayout>
+
+</ir.najmossagheb.core.SquareGridLayout>
