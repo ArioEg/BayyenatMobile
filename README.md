@@ -1,6 +1,6 @@
 # Bayyenat Mobile (Android Edition)
 
-## Whats that?!
+## What's that?!
 Bayyenat is an android app that lets muslims specially shias draw their leaders' (Imams) quotations on desktop wallpapers on specific durations.
 
 ## How it works?
